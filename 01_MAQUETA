@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: rgb(196, 223, 43);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+footer {
+  background-color: rgb(120, 69, 204);
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.col{
+  background-color: aquamarine;
+  width: 30%;
+  padding: 50px;
+  float: left;
+  height: 300px;
+  
+}
+.col1{
+  background-color: aquamarine;
+  width: 30%;
+  padding: 50px;
+  float: right;
+  height: 300px;
+  
+}
+
+.box{
+  background-color: blueviolet;
+  width: 40%;
+  padding: 50px;
+  float: left;
+  height: 150px;
+}
+.box1{
+  background-color: rgb(68, 233, 47);
+  width: 40%;
+  padding: 50px;
+  float: left;
+  height: 150px;
+}
+.yeah{
+  background-color: rgb(68, 233, 47);
+  width: 33.33%;
+  padding: 50px;
+  float: left;
+  height: 200px;
+
+}
+.yeah1{
+  background-color: aquamarine;
+  width: 33.33%;
+  padding: 50px;
+  float: left;
+  height: 200px;
+
+}
+
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Tipos de artes marciales</h2>
+</header>
+  <div class="clearfix">
+    <div>
+      <div class="yeah">H</div>
+      <div class="yeah1">H</div>
+      <div class="yeah">H</div>
+    </div>
+    <div class="col">Hola</div>
+      <div>
+        <div class="box">Mks</div>
+        <div class="col1">Hola</div>
+        <div class="box1">Mks</div>
+      </div>
+
+    
+    
+    
+    
+
+  
+
+
+  </div>
+
+
+
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
