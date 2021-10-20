@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="text-align: center;">FORMULARIO</h2>
+    <form>
+        <input type="text" name="nombre">
+        <select type="text" name="select">
+            <option value="suma" name="suma">suma</option>
+            <option value="resta" name="resta">resta</option>
+            
+        </select>
+        <input type="radio button" name="radio button">
+            <option value="suma" name="1"></option>
+            <option value="resta" name="1"></option>
+        </input>
+        <input type="color" name="color"></input>
+        <input type="submit" value="Resultado">
+        <p>Comida fav</p>
+
+        <form>
+            <input type="radio" id="Hamburguesa" name="fav_language" value="Hamburguesa">
+            <label for="Hamburguesa">Hamburguesa</label><br>
+            <input type="radio" id="Pizza" name="fav_language" value="Pizza">
+            <label for="Pizza">Pizza</label><br>
+            <input type="HotDog" id="HotDog" name="fav_language" value="HotDog">
+            <label for="HotDog">HotDog</label>
+        </form>
+        <div>
+            <input type="checkbox" name="suma">Suma</input>
+            <input type="checkbox" name="resta">Resta</input>
+            <input type="checkbox" name="multiplicacion">Multiplicacion</input>
+            <input type="checkbox" name="division">Division</input>
+        </div>
+    </form>
+</body>
+</html>
