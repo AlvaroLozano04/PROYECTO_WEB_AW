@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contact_form">
+        <div class="formulario">
+            <h1>Reseña de nuestra página </h1>
+            <h3>Completa:</h3>
+        </div>
+        <form action="" method="">
+            <p>
+                <label class="colocar_nombre">Nombre:</label>
+                <input type="text" required="obligatorio" placeholder="escribe tu Nombre">
+
+            </p>
+            <p>
+                <label class="colocar_email">Email:</label>
+                <input type="email" required="obligatorio" placeholder="escribe tu dirección">    
+            </p>
+            <p>
+                <label class="colocar_passwd">Contraseña:</label>
+                <input type="password">
+            </p>
+            <p>
+                <label class="colocar_mensaje">Cuerpo de la reseña:</label>
+                <textarea class="texto_mensaje" required="obligatorio" placeholder="introduce aqui tu mensaje..."></textarea>
+            </p>
+            <p>
+                <label class="colocar_dia">Fecha de nacimieto:</label>
+                <input type="date" placeholder="dd/mm/aa">
+       
+            </p>
+            <p>
+                <label for="Satisfacción" required="obligatorio">Satisfacción con nuestra pagina:</label></br>
+                <select name='conector'>
+                    <option></option>
+                    <option value='excelente'>Excelente</option>
+                    <option value='buena'>Buena</option>
+                    <option value='media'>Media</option>
+                    <option value='mala'>Mala</option>
+                    <option value='nefasta'>Nefasta</option>
+                </select>
+            </p>
+     
+            <button type="submit" >Enviar</input>
+        </form>
+    </div>
+
+</body>
+</html>
