@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="https://www.w3schools.com/w3css/4/w3.css">
+    <title style="color: lightblue;">Java</title>
+</head>
+<style>
+.parallax {
+    background-image: url("../javascript.jpeg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body, html {
+    height: 100%;
+}
+.parallax1 {
+    background-image: url("../img/java.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mySlides {
+    display:none;
+}
+</style>
+<body>
+    <div style="background-color: lemonchiffon; ">
+    <p style="font-size: 40px; text-align: center;"><b>La diferencia entre java y javascript</b></p>
+    </div>
+    <div class="parallax"></div>
+    <div style="height: 100px; text-align: center; background-color:rgb(255, 255, 255);font: size 20px; font-family: Georgia, 'Times New Roman', Times, serif; padding-top: 30px;">
+    El javascript es un código de programación usado para implementar código en las páginas web, mientras que el java se usa para la ejecución de programas específicos para implementar algo</div>
+    <div class="parallax1"></div>
+    <div style="height: 100px; text-align: center; background-color:rgb(255, 255, 255);font: size 20px; font-family: Georgia, 'Times New Roman', Times, serif; padding-top: 30px;">
+        El javascript es un código de programación usado para implementar código en las páginas web, mientras que el java se usa para la ejecución de programas específicos para implementar algo</div>
+    <div class="w3-content w3-display-container">
+        
+        <a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=592:ejemplo-de-codigo-java-basico-clases-con-campos-constructor-y-metodos-la-palabra-clave-this-cu00652b&catid=68&Itemid=188/" target="_blank">
+        <img src="../img/java.jpg" class="mySlides" style="width:100%">
+        </a>
+        <a href="https://www.w3schools.com/js/default.asp" target="_blank">
+        <img class="mySlides" src="../javascript.jpeg" style="width:100%">
+        </a>
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+
+</body>
+</html>
