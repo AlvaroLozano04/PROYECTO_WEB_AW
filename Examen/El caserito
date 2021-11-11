@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>El Caserito</title>
+</head>
+<style>
+    .parallax {
+        background-image: url("francia.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    body, html {
+        height: 100%;
+    }
+    .parallax1 {
+        background-image: url("francia1.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax2 {
+        background-image: url("hotel3.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mySlides {
+        display:none;
+    }
+    .mySlides:hover {
+        opacity: 0.75;
+        border-radius: 100%;
+    }
+    div{
+        background-color: lemonchiffon;
+    }
+
+
+
+.contact_form{
+    width: 500px;
+    height: auto;
+    margin:80px auto;
+    padding-top:30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: rgb(0, 255, 98);
+
+
+}
+
+input{
+    background-color: lemonchiffon;
+    height: 40px;
+    width: 408px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    
+}
+label{
+    display: block;
+    float: center;
+}
+
+
+.button1{
+    width: 420px;
+    height: 45px;
+    border-radius: 30px;;
+    border-style: solid;
+    border: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: 0.5s ease-in;
+    background-color: rgb(71, 216, 252);
+
+}
+.button1:hover{
+    height: 60px;
+    float: center;
+    width: 420px;
+}
+
+    
+
+select{
+    padding: 5px;
+    height: 50px;
+    width: 420px;
+    background-color: rgb(0, 255, 0);
+
+}
+select:hover{
+    padding: 10px;
+    height: 60px;
+    width: 420px;
+    
+
+}
+input:hover{
+    
+    height: 50px;
+    width: 408px;
+    border-style:  3px solid;
+}
+</style>
+<body style="background-color: lemonchiffon;">
+    
+    <div >
+        <p style="font-size: 40px; text-align: center;"><b>Zonas rurales de la Alberca</b></p>
+    </div>
+    <div class="parallax"></div>
+    <div style="height: auto; text-align: center;font: size 20px; font-family: Georgia, 'Times New Roman', Times, serif; padding-top: 30px;">
+        <h1 style="text-align: center;">Información</h1>
+        <p style="text-align: center; padding: 5px;">La alberga es una zona ruristica perfecta para observas las maravillas de la cultura francesa, las reservas, hoteles y comidas que puedes llegar a tener en el lugar, esta zona es reconocida como una de las mas "bonitas" de todo españa, es un lugar tranquilo y con poca gente lo cual es perfecto para andar de seguridad y tomarse un respiro ahí, </p><br>
+    </div>
+    <div class="parallax1"></div>
+    <div style="height: 100px; text-align: center;font: size 20px; font-family: Georgia, 'Times New Roman', Times, serif; padding-top: 30px;">
+        <h1 style="text-align: center;">Hoteles y reservas</h1>
+        <p style="text-align: center;">El hotel que vamos a recomendar es el hotel Termal Abadia de los Templarios</p><br>
+        <p style="text-align: center; font-size: 20px;">Este hotel tiene un perfecto alojamiento debido a que esta situado en una zona centralizada a todas las actividades y puntos de interes recomendados</p>
+        
+        <div class="w3-content w3-display-container">
+            <img src="hotel4.jpg" class="mySlides" style="width:100%; height: 400px;">
+            <img class="mySlides" src="hotel1.jpg" style="width:100%; height: 400px;">
+            <img class="mySlides" src="hotel2.jpg" style="width:100%; height: 400px;">
+            <img class="mySlides" src="hotel.jpg" style="width:100%; height: 400px;">
+            <img class="mySlides" src="hotel1,jpg.jpg" style="width:100%; height: 400px;">
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        <h1>Información del hotel:</h1>
+        <p style="font-size: 25px;">Este hotel de estilo medieval se encuentra en el centro del impresionante parque nacional de Batuecas y está rodeado de viejos castaños. Ofrece estupendas instalaciones y vistas al paisaje rural de los alrededores.
+
+            Las fantásticas instalaciones de la Abadía de los Templarios incluyen una piscina cubierta, una piscina al aire libre con hamacas y un bar. También hay pistas de tenis, donde se puede disfrutar del aire fresco del campo.
+            
+            El Templarios también dispone de sauna, baños turcos, gimnasio, servicio de masajes y un gran restaurante.
+            
+            A las parejas les encanta la ubicación — Le han puesto un 9,0 para viajes de dos personas.</p>
+            <p style="font-size: 20px;">Este hotel cuenta con 1 o 2 camas( 1 de matrimonio y 2 individuales), perfecto para un vaije de dos personas. Habitación con baño, situada en un atico <br> Aparte tiene todo el precio incluido con la comida, el Iva etc. <br> Las instalaciones cuentas con spas, amables recepcionistas, limpieza, calma y con yakuzis y  un comedor fabuloso. <br>Precio: <p style="color: blue;"><a href="https://www.booking.com/hotel/es/termal-abadia-de-los-templarios.es.html?aid=1250365;label=huno.1;sid=5f76c95258eff4fe79bfd252df98c26b;all_sr_blocks=1939401_95144150_0_10_0;checkin=2021-11-18;checkout=2021-11-19;dest_id=-386416;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=0;highlighted_blocks=1939401_95144150_0_10_0;hpos=0;matching_block_id=1939401_95144150_0_10_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=1939401_95144150_0_10_0__11340;srepoch=1636629996;srpvid=3cfb50756516009b;type=total;ucfs=1;sig=v1h88xjCQA&#hotelTmpl">113euros</a></p></p>
+        <h2 style="text-align: center; padding: 20px ;"><b>Aqui esta el formulario a rellenar sobre los datos de estancia:</b></h2>
+        <div class="contact_form">
+            
+            <form action="" method="">
+                <p>
+                    <label class="colocar_nombre">Reserva a nombre de: </label>
+                    <input type="text" required="obligatorio" placeholder="escribe tu Nombre">
+    
+                </p>
+                <p>
+                    <label class="colocar_email">Email de contacto</label>
+                    <input type="email" required="obligatorio" placeholder="escribe tu dirección">    
+                </p>
+                <p>
+                    <label class="colocar_dia">Fecha de llegada:</label>
+                    <input type="date" placeholder="dd/mm/aa">
+           
+                </p>
+                <p>
+                    <label class="colocar_dia">Fecha de salida:</label>
+                    <input type="date" placeholder="dd/mm/aa">
+           
+                </p>
+                <p>
+                    <label class="checkbox">Numero de camas por habitación:</label>
+                    <input type="number"></input>
+                </p>
+                <button class="button1"  type="submit" >Enviar</input>
+            </form>     
+        </div>
+        <div class="parallax2" style="height: 500px;" ></div>
+    <div style="height: 100px; text-align: center;font: size 20px; font-family: Georgia, 'Times New Roman', Times, serif; padding-top: 30px;">
+        <h1 style="text-align: center;">Puntos de interes:</h1>
+    
+    <p style="text-align: center;">Este es uno de los mejores puntos de interes que nostros recomendamos visitar</p><br>
+    <p style="text-align: center; font-size: 20px;">El lugar se llama huerto de calixto y melibea y es un jardin bastante bonito al lado de un palacio real el cual se paseaba los reyes calixto y melibea</p>
+    
+    </div>
+    
+    
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+  
+</body>
+</html>
