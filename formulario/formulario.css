@@ -1,0 +1,45 @@
+.formu {
+    background-color: aquamarine;
+    width: 400px;
+    height: 400px;
+    border-top: 5px solid black;
+    border-left: 5px solid blue;
+    border-bottom: 5px solid black;
+    border-right: 5px solid blue;
+    text-align: center;
+}
+.colocar_nombre{
+    text-align: center;
+    
+}
+.bu{
+    
+    width: 100px;
+    height: 50px;
+    color: rgb(175, 27, 27);
+    background-color: blueviolet;
+
+    
+}
+.colocar_passwd{
+    text-align: center;
+    
+}
+.hola{
+    position: absolute;
+    left: 500px;
+    right: 500px;
+}
+input{
+    background-color: rgb(235, 255, 59);
+    height: 40px;
+    width: 300px;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    transition: 1.5s ease-in;
+    
+}
